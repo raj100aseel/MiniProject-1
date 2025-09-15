@@ -1,0 +1,5 @@
+package com.rajtech.empmgt.repository;
+
+public interface EmployeeRepository {
+
+}

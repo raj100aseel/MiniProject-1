@@ -1,0 +1,50 @@
+2025-09-15 18:50:37,997 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-09-15 19:08:12,883 [Worker-4: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.rajtech:EmployeeManagementSystem:0.0.1-SNAPSHOT @ C:\2025\FSJRTP - 1\Mini Project - 1\Backend\EmployeeManagementSystem\pom.xml.
+2025-09-15 19:08:14,012 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeManagementSystem/src/main/java
+2025-09-15 19:08:14,013 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeManagementSystem/src/main/resources
+2025-09-15 19:08:14,017 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeManagementSystem/src/main/resources
+2025-09-15 19:08:14,019 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeManagementSystem/src/test/java
+2025-09-15 19:08:14,019 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeManagementSystem/src/test/resources
+2025-09-15 19:08:14,708 [Worker-4: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2025-09-15 19:08:14,712 [Worker-4: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-15 19:08:14,927 [Worker-4: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.rajtech:EmployeeManagementSystem:0.0.1-SNAPSHOT @ C:\2025\FSJRTP - 1\Mini Project - 1\Backend\EmployeeManagementSystem\pom.xml.
+2025-09-15 19:08:15,273 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeManagementSystem/src/main/java
+2025-09-15 19:08:15,273 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeManagementSystem/src/main/resources
+2025-09-15 19:08:15,273 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeManagementSystem/src/main/resources
+2025-09-15 19:08:15,274 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeManagementSystem/src/test/java
+2025-09-15 19:08:15,274 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeManagementSystem/src/test/resources
+2025-09-15 19:08:15,738 [Worker-4: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-09-15 19:08:16,881 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-15 19:08:16,914 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-15 19:08:16,918 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\2025\FSJRTP - 1\Mini Project - 1\Backend\EmployeeManagementSystem\src\test\resources
+2025-09-15 19:10:40,150 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-15 19:10:40,158 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-15 19:10:40,161 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\2025\FSJRTP - 1\Mini Project - 1\Backend\EmployeeManagementSystem\src\test\resources
+2025-09-15 19:12:14,846 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.21; built: 2025-05-09T00:32:00.688Z; git: 1c4719601e31b05b7d68910d2edd980259f1f53c; jvm 21.0.7+6-LTS
+2025-09-15 19:12:14,892 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@6ef5a7aa{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@2b4a221b{STARTED}}
+2025-09-15 19:12:14,893 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-09-15 19:12:14,915 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@4d103dca{HTTP/1.1, (http/1.1)}{127.0.0.1:64567}
+2025-09-15 19:12:14,920 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@6930301e{STARTING}[12.0.21,sto=0] @1385470ms
+2025-09-15 19:12:23,567 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-15 19:12:23,571 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-15 19:12:23,575 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\2025\FSJRTP - 1\Mini Project - 1\Backend\EmployeeManagementSystem\src\test\resources
+2025-09-15 19:14:09,905 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-15 19:14:09,922 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-15 19:14:09,930 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\2025\FSJRTP - 1\Mini Project - 1\Backend\EmployeeManagementSystem\src\test\resources
+2025-09-15 19:16:26,195 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-15 19:16:26,206 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-15 19:16:26,209 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\2025\FSJRTP - 1\Mini Project - 1\Backend\EmployeeManagementSystem\src\test\resources
+2025-09-15 19:16:49,227 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-15 19:16:49,232 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-15 19:16:49,234 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\2025\FSJRTP - 1\Mini Project - 1\Backend\EmployeeManagementSystem\src\test\resources
+2025-09-15 19:17:29,011 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-15 19:17:29,013 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-15 19:17:29,018 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\2025\FSJRTP - 1\Mini Project - 1\Backend\EmployeeManagementSystem\src\test\resources
+2025-09-15 19:19:27,119 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-15 19:19:27,122 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-15 19:19:27,125 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\2025\FSJRTP - 1\Mini Project - 1\Backend\EmployeeManagementSystem\src\test\resources
+2025-09-15 19:19:48,552 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-15 19:19:48,555 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-15 19:19:48,557 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\2025\FSJRTP - 1\Mini Project - 1\Backend\EmployeeManagementSystem\src\test\resources
+2025-09-15 19:55:01,739 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@6930301e{STOPPING}[12.0.21,sto=0]
+2025-09-15 19:55:01,749 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@4d103dca{HTTP/1.1, (http/1.1)}{127.0.0.1:0}

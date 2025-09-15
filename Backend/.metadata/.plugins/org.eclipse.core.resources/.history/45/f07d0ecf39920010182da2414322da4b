@@ -1,0 +1,5 @@
+package com.rajtech.empmgt.entity;
+
+public class Employee {
+
+}
