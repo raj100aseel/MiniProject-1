@@ -1,0 +1,5 @@
+package com.rajtech.empmgt.exception;
+
+public class EmployeeNotFoundException {
+
+}

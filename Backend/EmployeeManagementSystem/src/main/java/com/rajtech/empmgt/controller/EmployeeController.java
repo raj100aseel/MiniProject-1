@@ -3,13 +3,17 @@ package com.rajtech.empmgt.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.rajtech.empmgt.entity.Employee;
+import com.rajtech.empmgt.exception.EmployeeNotFoundException;
 import com.rajtech.empmgt.repository.EmployeeRepository;
 
 @RestController
@@ -28,6 +32,21 @@ public class EmployeeController {
 		return employeeRepository.save(employee);
 	}
 	
+	@GetMapping("/employees/{empId}")
+	public ResponseEntity<Employee> getEmployeeById(@PathVariable int empId) {
+		Employee employee = employeeRepository.findById(empId).orElseThrow(() -> new EmployeeNotFoundException("Employee Not Found"));
+		return ResponseEntity.ok(employee);
+	}
+	
+	@PutMapping("/employees/{empId}")
+	public ResponseEntity<Employee> updateEmployee(@PathVariable int empId, @RequestBody Employee employeeDetails){
+		Employee employee = employeeRepository.findById(empId).orElseThrow(() -> new EmployeeNotFoundException("Employee Not Found"));
+		employee.setEmpName(employeeDetails.getEmpName());
+		employee.setDesignation(employeeDetails.getDesignation());
+		employee.setEmpSalary(employeeDetails.getEmpSalary());
+		employeeRepository.save(employee);
+		return ResponseEntity.ok(employee);
+	}
 }
 
 
