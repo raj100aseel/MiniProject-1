@@ -1,10 +1,13 @@
 package com.rajtech.empmgt.controller;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -46,6 +49,15 @@ public class EmployeeController {
 		employee.setEmpSalary(employeeDetails.getEmpSalary());
 		employeeRepository.save(employee);
 		return ResponseEntity.ok(employee);
+	}
+	
+	@DeleteMapping("/employees/{empId}")
+	public ResponseEntity<Map<String,Boolean>> deleteEmployee(@PathVariable int empId){
+		Employee employee = employeeRepository.findById(empId).orElseThrow(() -> new EmployeeNotFoundException("Employee Not Found"));
+		employeeRepository.delete(employee);
+		Map<String,Boolean> response = new HashMap<String,Boolean>();
+		response.put("Deleted",Boolean.TRUE);
+		return ResponseEntity.ok(response);
 	}
 }
 
